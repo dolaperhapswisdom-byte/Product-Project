@@ -322,3 +322,17 @@ footer small {
 .contact-item a:hover {
   background: #ff8800;
 }
+.product-image {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 35px #ff9900);
+  animation: float 3s infinite ease-in-out;
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
